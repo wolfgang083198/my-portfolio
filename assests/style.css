@@ -1,0 +1,176 @@
+:root {
+    --background: #2f4f4f;
+    --header:  grey;
+    --box:#000;
+    --border:#08c6c6;
+    --a:white;
+    --link:#ab7511; 
+}
+    
+ 
+  
+html {
+    font-family: fantasy;
+
+    background: linear-gradient(to bottom, grey,#2f4f4f , #2f4f4f , black );
+  }
+
+  body {
+    display: flex;
+    margin: 0%;
+    padding:0;
+  }
+
+  .card {
+    text-align: center;
+    text-align: center;
+    color:white;
+    border:var(--border) solid 10px;
+    border-radius: 15px;
+    margin:15px;
+
+  }
+
+  header {
+    border:var(--header) dashed 5px;
+    border-radius:25px;
+    margin: 15px;
+  }
+
+nav a {
+    text-decoration: none;
+}
+
+
+  main {
+    display: flex;
+    justify-content: center;
+}
+
+  main2 {
+    border:var(--border) solid 10px;
+    border-radius: 25px;
+    margin: 15px ;
+    color:black;
+
+  }
+
+  header pre {
+    color:var(--box);
+  }
+
+  article {
+    padding-top: 10px;
+    margin:30px 10px 300px 10px;
+    border-radius: 15px;
+    text-align: center;
+    border:var(--header) dashed 5px;
+    background-color: var(--background);
+  }
+
+  article h2 {
+    text-decoration: overline underline;
+  }
+
+  section {
+    display:flex;
+    flex-direction: column;
+     
+  }
+
+  button {
+    flex: 1 auto;
+    margin: 5px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align:center;
+    color:var(--background)
+  }
+   
+  a {
+    color:var(--link);
+    margin:5px;
+  }
+
+  .badges {
+    display: flex;
+    justify-content:space-evenly;
+    
+  }
+
+  img {
+    padding: var(--border) solid 5px;
+    border-radius: 50%;
+    max-width: 80px;
+    
+    
+  }
+
+.links {
+    list-style: none;
+}
+
+ 
+
+@media screen and ( min-width: 768px){
+    
+  :root {
+    --background: #952615;
+    --header:  black;
+    --box:blue;
+    --border:blue;
+    --a:white;
+    --link:#ffffff; 
+  }
+
+  html {
+    font-family: fantasy;
+      background: white;
+  
+  }
+
+  a {
+    color:black;
+    
+  }
+
+  h1 {
+    color:#952615;
+  }
+
+
+/*main2 {
+max-width:100%;
+}
+
+a {
+  color:black;
+
+}
+
+.leftmain {
+   display: flex;
+   width: 35%;
+   flex-direction: column;
+}
+
+.aboutme {
+   display: flex;
+   flex-wrap: wrap;
+   width: 35%;
+}
+/* main3 .main3{
+   max-width: 65%;
+  display: flex;
+    flex-direction: column;
+    justify-content: end;
+}*/ 
+
+ 
+}
